@@ -3,41 +3,53 @@
 #cougar {
     background: #B26219;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
 }
 
 #lion {
     background: #FFBD82; 
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+    
 }
 
 #tiger {
     background: #FFD5AE; 
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-section {
-    max-width: 47%;
-    margin: 1.5rem;
-    box-sizing: border-box
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
     
 }
 
+
+section {
+    max-width: 47%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 2rem;
+
+
+}
+
+
+
 .text {
-    background: #fff;
-    padding: 1.5rem;
+    padding: 2rem;
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
 h2 {
-    text-align: center;
-    margin-left: 0.5rem;
+
+   margin: 0;
 }
 
 footer {
@@ -73,6 +85,7 @@ nav ul li {
 article {
     margin: 0;
 }
+
 
 
 /* you may add to or change the body rule */
